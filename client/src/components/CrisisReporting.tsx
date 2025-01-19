@@ -7,6 +7,17 @@ const CrisisReporting = () => {
   const virtualAssistants = [
     {
       id: 1,
+      name: "General Crisis AI",
+      icon: Bot,
+      description: "General emergency support and resource connection",
+      number: "+1 (628) 209-6401",
+      responseTime: "< 45 seconds",
+      available: true,
+      specialization: "General crisis support, resource coordination, emergency services",
+      languages: ["English", "Spanish", "French", "Mandarin"],
+    },
+    {
+      id: 2,
       name: "MentalHealth AI",
       icon: Brain,
       description: "24/7 mental health support and crisis counseling",
@@ -17,7 +28,7 @@ const CrisisReporting = () => {
       languages: ["English", "Spanish", "French"],
     },
     {
-      id: 2,
+      id: 3,
       name: "MediCare AI",
       icon: FirstAid,
       description: "Medical emergency triage and guidance",
@@ -28,7 +39,7 @@ const CrisisReporting = () => {
       languages: ["English", "Spanish", "Mandarin"],
     },
     {
-      id: 3,
+      id: 4,
       name: "Housing Support AI",
       icon: Home,
       description: "Emergency shelter and housing assistance",
@@ -38,17 +49,7 @@ const CrisisReporting = () => {
       specialization: "Emergency shelter, housing resources, temporary accommodation",
       languages: ["English", "Spanish"],
     },
-    {
-      id: 4,
-      name: "General Crisis AI",
-      icon: Bot,
-      description: "General emergency support and resource connection",
-      number: "1-800-CRISIS-AI",
-      responseTime: "< 45 seconds",
-      available: true,
-      specialization: "General crisis support, resource coordination, emergency services",
-      languages: ["English", "Spanish", "French", "Mandarin"],
-    }
+    
   ];
 
   return (
