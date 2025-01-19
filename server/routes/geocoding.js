@@ -58,7 +58,7 @@ router.get("/geocode", async (req, res) => {
 				latitude,
 				longitude,
 				placeName,
-				address: response.data.features[0],
+				
 			},
 		});
 	} catch (error) {

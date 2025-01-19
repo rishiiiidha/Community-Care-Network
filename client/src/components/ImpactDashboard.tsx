@@ -63,12 +63,28 @@ const ImpactDashboard = () => {
         <div>
           <h3 className="text-lg font-semibold mb-4">Resource Distribution</h3>
           <div className="bg-gray-50 p-4 rounded-lg">
-            {/* Placeholder for chart */}
-            <div className="aspect-w-16 aspect-h-9 bg-white rounded-lg">
-              <div className="flex items-center justify-center h-full">
-                <p className="text-gray-500">Distribution chart loading...</p>
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-sm text-gray-600">Food Security Program</p>
+                <p className="font-semibold">Delivered 2000+ meals to families in need</p>
               </div>
+              <span className="text-xs text-gray-500">1 week ago</span>
             </div>
+            <div className="flex items-center justify-between mt-4">
+              <div>
+                <p className="text-sm text-gray-600">Education Initiative</p>
+                <p className="font-semibold">Distributed learning materials to 1000 students</p>
+              </div>
+              <span className="text-xs text-gray-500">5 days ago</span>
+            </div>
+            <div className="flex items-center justify-between mt-4">
+              <div>
+                <p className="text-sm text-gray-600">Medical Assistance Program</p>
+                <p className="font-semibold">Provided healthcare access to 500+ families</p>
+              </div>
+              <span className="text-xs text-gray-500">2 days ago</span>
+            </div>
+            
           </div>
         </div>
       </div>
